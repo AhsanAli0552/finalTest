@@ -1,0 +1,46 @@
+@import "./scss/bootstrap";
+@import "./scss/auth";
+@import "./scss/screen-loader";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1 0 auto;
+}
+.frontend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-background {
+  // background-color: #e4d2f3; /* Light purple background */
+  height: 100vh;
+}
+
+.note-item {
+  // background-color: #f6e5ff; /* Light pinkish background for notes */
+  color: #333;
+  border: none;
+}
+
+.add-note-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  // background-color: #9575cd; /* Purple background */
+  color: white;
+  border: none;
+  border-radius: 50%;
+}
+
+.add-note-button:hover {
+  // background-color: #7e57c2; /* Darker purple on hover */
+}
+
